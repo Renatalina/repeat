@@ -1,0 +1,22 @@
+ul{
+    color: red;
+}
+li{
+    color: blue;
+}
+#i-am-useless{
+    background-image: url('dress.webp');
+}
+#test2{
+    background-image: url(
+        'dress.webp'
+    );
+    /* display: none; */
+}
+#example{
+    margin-left: -5px;
+}
+@media only screen and (max-width:1024px){
+    margin: 100px;
+    background-image: url('dress.webp');
+}
